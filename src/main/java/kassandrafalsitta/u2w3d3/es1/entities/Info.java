@@ -1,4 +1,4 @@
-package kassandrafalsitta.u2w3d3.es1.Adapter.entities;
+package kassandrafalsitta.u2w3d3.es1.entities;
 
 import lombok.Getter;
 import lombok.Setter;

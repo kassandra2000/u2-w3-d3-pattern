@@ -1,7 +1,7 @@
 package kassandrafalsitta.u2w3d3.es1.Adapter;
 
-import kassandrafalsitta.u2w3d3.es1.Adapter.entities.Info;
-import kassandrafalsitta.u2w3d3.es1.Adapter.interfaces.DataSource;
+import kassandrafalsitta.u2w3d3.es1.entities.Info;
+import kassandrafalsitta.u2w3d3.es1.interfaces.DataSource;
 import lombok.AllArgsConstructor;
 
 import java.util.Date;

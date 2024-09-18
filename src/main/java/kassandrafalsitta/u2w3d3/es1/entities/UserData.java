@@ -1,6 +1,6 @@
-package kassandrafalsitta.u2w3d3.es1.Adapter.entities;
+package kassandrafalsitta.u2w3d3.es1.entities;
 
-import kassandrafalsitta.u2w3d3.es1.Adapter.interfaces.DataSource;
+import kassandrafalsitta.u2w3d3.es1.interfaces.DataSource;
 
 public class UserData {
     private String nomeCompleto;
