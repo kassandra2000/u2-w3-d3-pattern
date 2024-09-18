@@ -7,6 +7,7 @@ import kassandrafalsitta.u2w3d3.es1.interfaces.DataSource;
 import kassandrafalsitta.u2w3d3.es2.entities.Libro;
 import kassandrafalsitta.u2w3d3.es2.entities.Pagina;
 import kassandrafalsitta.u2w3d3.es2.entities.Sezione;
+import kassandrafalsitta.u2w3d3.es3.entities.*;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Arrays;
@@ -43,7 +44,18 @@ public class U2w3d3Application {
         libro.stampa();
         System.out.println("numero di pagine totali: " + libro.getNumeroPagine());
         System.out.println("-------------------------esercizio 3---------------------------------");
+        Generale generale = new Generale();
+        Colonnello colonnello = new Colonnello();
+        Tenente tenente = new Tenente();
+        Maggiore maggiore = new Maggiore();
+        Capitano capitano = new Capitano();
 
+        capitano.setSuperiore(maggiore);
+        maggiore.setSuperiore(tenente);
+        tenente.setSuperiore(colonnello);
+        colonnello.setSuperiore(generale);
+
+        capitano.doCheck(3500);
 
     }
 
